@@ -1,0 +1,35 @@
+db.FruitesDB.insert(
+{
+	"id":1,
+	"nom":"pera",
+	"quantitatQuilos":234
+}
+)
+db.FruitesDB.insert(
+{
+	"id":2,
+	"nom":"manzana",
+	"quantitatQuilos":234
+}
+)
+db.FruitesDB.insert(
+{
+	"id":3,
+	"nom":"fresa",
+	"quantitatQuilos":234
+}
+)
+db.FruitesDB.insert(
+{
+	"id":4,
+	"nom":"uva",
+	"quantitatQuilos":234
+}
+)
+db.FruitesDB.insert(
+{
+	"id":5,
+	"nom":"coco",
+	"quantitatQuilos":234
+}
+)
