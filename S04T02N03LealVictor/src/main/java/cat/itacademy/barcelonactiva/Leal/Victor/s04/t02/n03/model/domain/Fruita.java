@@ -1,11 +1,7 @@
 package cat.itacademy.barcelonactiva.Leal.Victor.s04.t02.n03.model.domain;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
-//import javax.persistence.GeneratedValue;
-//import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -14,12 +10,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Fruita {
 	
 	@Id
-	//@GeneratedValue (strategy=GenerationType.IDENTITY)
-	//@Column (name="id")
 	private int id;
-	//@Column (name="nom")
 	private String nom;
-	//@Column (name="quantitat_Quilos")
 	private int quantitatQuilos;
 	
 	public int getId() {
